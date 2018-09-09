@@ -1,0 +1,412 @@
+<!DOCTYPE>
+<html>
+<head>
+ 
+
+<style>
+
+body {
+background-color:white;
+width:100%;
+text:white;
+
+}
+
+#header{
+background-color:blue;
+}
+#logo {
+margin:15px;
+left:10px;
+}
+#header_right {
+text-color:white;
+position:absolute;
+top:23px;
+left:370px;
+
+}
+.sfield{
+ background-color:white;  
+    border-color:white;
+    border-style:solid;
+	border-radius:04px;
+    height:35px;
+    
+}
+.sbutton{
+background-color:#d91515;
+    height:inherit;
+    border: 1px solid #d91515;  
+    color:#fff;
+    position:relative;
+    margin: 0;
+    height:35px;
+	border-radius:04px;
+	}
+ .button {
+    background-color:blue; 
+    border: none;
+    color: white;
+    padding: 15px 28px;
+    font-weight:bold;
+    
+    font-size: 12px;
+    cursor: pointer;
+    float: left;
+}
+ .button:hover {
+    border:2px solid white;
+	border-radius:2px;
+    font-size: 15px;
+    font-style: italic;
+    background-color:darkgray;
+	color:#fff;
+}
+.BRAND{
+font-family:arial;
+font-size:25px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100px;
+  position:ABSOLUTE;
+  left:300px;
+  TOP:85PX;
+  margin: auto;
+}
+#dots
+{
+position:absolute;
+top:400px;
+left:690px;
+}
+/* The dots/bullets/indicators */
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 2px;
+  align:center;
+  background-color: black;
+  border-radius: 100%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: blue;
+}
+#line
+{
+position:absolute;
+top:80px;
+left:260px;
+}
+ul{
+list-style-type:none;
+}
+li
+{
+margin:06px;
+}
+li a{
+color:#fff;
+padding:15px;
+}
+.btn-theme
+{
+color:#fff;
+background-color:#333;
+border-radius:8pfx;
+width:180px;
+}
+.btn-theme:hover
+{
+
+background-color:#000;
+}
+#line1
+{
+position:absolute;
+top:130px;
+left:10px;
+
+}
+hr
+{background-color:blue;
+}
+.FEAT-PHN {
+POSITION:ABSOLUTE;
+TOP:550PX;
+LEFT:330PX;
+}
+
+.star {
+    background-image: url(suggest1.png);
+	
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+	transition: background-size 0.5s;
+	display: inline-block;
+    width: 200px;
+    height: 300px;
+    cursor: pointer;
+	POSITION:ABSOLUTE;
+	TOP:480PX;
+	LEFT:550PX;
+}
+.star:hover {
+    background-size: 250px;
+}
+.star1 {
+
+	background-image: url(suggest2.png);
+    background-size: 180px;
+    background-repeat: no-repeat;
+    background-position: center;
+	transition: background-size 0.5s;
+	display: inline-block;
+    width: 200px;
+    height: 300px;
+    cursor: pointer;
+	POSITION:ABSOLUTE;
+	TOP:480PX;
+	LEFT:750PX;
+}
+.star1:hover {
+    background-size: 230px;
+}
+.star2 {
+
+	background-image: url(suggest3.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+	transition: background-size 0.5s;
+	display: inline-block;
+    width: 200px;
+    height: 300px;
+    cursor: pointer;
+	POSITION:ABSOLUTE;
+	TOP:480PX;
+	LEFT:950PX;
+}
+.star2:hover {
+    background-size: 250px;
+}
+.star3 {
+
+	background-image: url(suggest4.png);
+    background-size: 140px;
+    background-repeat: no-repeat;
+    background-position: center;
+	transition: background-size 0.5s;
+	display: inline-block;
+    width: 200px;
+    height: 300px;
+    cursor: pointer;
+	POSITION:ABSOLUTE;
+	TOP:480PX;
+	LEFT:1150PX;
+}
+.star3:hover {
+    background-size: 170px;
+}
+.FEAT {
+POSITION:ABSOLUTE;
+TOP:550PX;
+LEFT:350PX;
+}
+.love{
+position:absolute;
+top:900px;
+left:330px;
+}
+.love1 {
+
+	background-image: url(love.png);
+    background-size: 140px;
+    background-repeat: no-repeat;
+    background-position: center;
+	transition: background-size 0.5s;
+	display: inline-block;
+    width: 200px;
+    height: 300px;
+    cursor: pointer;
+	POSITION:ABSOLUTE;
+	TOP:800PX;
+	LEFT:1150PX;
+}
+.love1:hover {
+    background-size: 190px;
+}
+.love2 {
+
+	background-image: url(love3.PNG);
+    background-size: 140px;
+    background-repeat: no-repeat;
+    background-position: center;
+	transition: background-size 0.5s;
+	display: inline-block;
+    width: 200px;
+    height: 300px;
+    cursor: pointer;
+	POSITION:ABSOLUTE;
+	TOP:800PX;
+	LEFT:950PX;
+}
+.love2:hover {
+    background-size: 190px;
+}
+.love3 {
+
+	background-image: url(love4.png);
+    background-size: 170px;
+    background-repeat: no-repeat;
+    background-position: center;
+	transition: background-size 0.5s;
+	display: inline-block;
+    width: 200px;
+    height: 300px;
+    cursor: pointer;
+	POSITION:ABSOLUTE;
+	TOP:800PX;
+	LEFT:750PX;
+}
+.love3:hover {
+    background-size: 210px;
+}
+.love4 {
+
+	background-image: url(love5.png);
+    background-size: 140px;
+    background-repeat: no-repeat;
+    background-position: center;
+	transition: background-size 0.5s;
+	display: inline-block;
+    width: 200px;
+    height: 300px;
+    cursor: pointer;
+	POSITION:ABSOLUTE;
+	TOP:800PX;
+	LEFT:550PX;
+}
+.love4:hover {
+    background-size: 190px;
+}
+ 
+</style>
+</head>
+<title>Mobicity</title>
+<body>
+<div id="header">
+<img id="logo" src="mobicity2.png" width="300" height="40">
+<div id="header_right"> 
+<table>
+<tr>
+<td>
+
+  <a href="contact.html"><button class="button">24*7 Care</button></a>
+  <a href="help.html"><button class="button">Need Help?</button></a>
+  <a href="page1.html"><button class="button">My Profile</button></a>
+  <a href="page1.html"><button class="button"><input type="image" src="cart.png" alt="Submit" width="35" height="20"></button></a>
+  <a href="login22.html"><button class="button">Login</button></a>
+  
+<td>
+<form method="get">
+    <input type="text" size="35" name="search" class="sfield" placeholder="Search phone by name....."/>
+	<input type="submit" value="Search" class="sbutton"/>
+</form>
+</td>
+</form>
+</table>
+</div>
+</div>
+<div class="brand">
+
+<P><STRONG>BRANDS AVAILABLE</STRONG></P>
+<div id="line1">
+<hr width="250px;" size="5px;">
+</div>
+<ul>
+<li class="btn-theme"><b><a href="APPLE.html">APPLE</a></b></li><BR>
+<li class="btn-theme"><b><a href="oppo.html">OPPO</a></b></li><BR>
+<li class="btn-theme"><b><a href="page1.html">SAMSUNG</a></B></li><br>
+<li class="btn-theme"><b><a href="page1.html">MOTOROLA</a></b></li><br>
+<li class="btn-theme"><b><a href="page1.html">LENOVO</a></b></li><br>
+<li class="btn-theme"><b><a href="page1.html">SONY</a></b></li><br>
+<li class="btn-theme"><b><a href="page1.html">HTC</a></b></li><br>
+<li class="btn-theme"><b><a href="page1.html">GIONEE</a></b></li><br>
+<li class="btn-theme"><b><a href="page1.html">VIVO</a></b></li><br>
+
+<li class="btn-theme"><b><a href="page1.html">ASUS</a></b></li><BR>
+<li class="btn-theme"><b><a href="page1.html">MICROMAX</a></b></li><BR>
+<li class="btn-theme"><b><a href="page1.html">LE ECO</a></b></li>
+</ul>
+</div>
+<div id="line">
+<hr size="940px;" width="2px;">
+</div>
+
+<div class="slideshow-container">
+<div class="mySlides" style="width:1000px; height: 300px;">
+  <img src="galaxy C9.jpg" style="width:100%; height:300px;"> 
+</div>
+<div class="mySlides" style="width: 1000px; height: 300px;">
+  <img src="MICROMAX.jpg" style="width:100%; height:300px;">
+</div>
+<div class="mySlides" style="width: 1000px; height: 300px;">
+  <img src="MOTO.jpg" style="width:100%; height:300px;">
+</div>
+<div class="mySlides" style="width: 1000px; height: 300px;">
+  <img src="SLIDE_1.jpg" style="width:100%; height:300px;">
+</div>
+</div>
+<div id="dots">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span>   
+
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+<div CLASS="FEAT">
+<P><H1>FEATURED</H1></P><P><H1>PHONE</H1></P>
+</div>
+<a href="page1.html" class="star" ></a>
+<a href="page1.html" class="star1"></a>
+<a href="page1.html" class="star2"></a>
+<a href="page1.html" class="star3"></a>
+<div class="love">
+<p><h1>PHONE YOU</h1></p><p><h1><center>LOVE</center></h1></p>
+</div>
+    <a href="page1.html" class="love1" ></a>
+    <a href="page1.html" class="love2"></a>
+    <a href="page1.html" class="love3"></a>
+    <a href="page1.html" class="love4"></a>
+    
+</body>
+</html>
